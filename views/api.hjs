@@ -1,0 +1,10 @@
+
+<html>
+	{{> header}}
+	<body>
+	<form method="post" enctype="multipart/form-data" action="/file-size">
+	    <input type="file" name="input-files"/>
+	    <input type="submit" value="Upload"/>
+	</form>
+	</body>
+</html>
