@@ -2,7 +2,7 @@
 <html>
 	{{> header}}
 	<body>
-	<form method="post" enctype="multipart/form-data" action="/file-size">
+	<form method="post" enctype="multipart/form-data" action="/api/file-size">
 	    <input type="file" name="input-files"/>
 	    <input type="submit" value="Upload"/>
 	</form>

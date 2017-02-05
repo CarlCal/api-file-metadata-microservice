@@ -2,8 +2,9 @@
 const bodyParser = require("body-parser")
 const express = require("express")
 
-const index = require("./routes/index")
 const api = require("./routes/api")
+const fileSize = require("./routes/fileSize")
+const index = require("./routes/index")
 
 const app = express()
 
@@ -15,8 +16,9 @@ app
 	.use(bodyParser.urlencoded({extended: false}))
 	.use("/", index)
 	.use("/api", api)
-	/*.get("*", (req, res) => {
+	.use("/api/file-size", fileSize)
+	.get("*", (req, res) => {
 		res.redirect("/")
-	})*/
+	})
 	.listen(port)
 
