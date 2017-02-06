@@ -2,9 +2,9 @@
 <html>
 	{{> header}}
 	<body>
-	<form method="post" enctype="multipart/form-data" action="/api/file-size">
-	    <input type="file" name="input-files"/>
-	    <input type="submit" value="Upload"/>
-	</form>
+		<form id="file-form" class="input-group container" method="post" enctype="multipart/form-data" action="/api/file-size">
+		  <input id="file-select" class="custom-file-input" type="file" name="input-files"/><br>
+		  <input id="file-submit" class="btn btn-sm btn-default" type="submit" value="Check Size"/>
+		</form>
 	</body>
 </html>

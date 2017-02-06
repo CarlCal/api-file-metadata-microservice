@@ -2,6 +2,18 @@
 <html>
 	{{> header}}
 	<body>
-		<h1>Home</h1>
+		<div id="main" class="container">
+			<h1>API Basejump: File Metadata</h1>
+			<hr>
+			<div id="text">
+				<h4>Description:</h4> 
+				<p>With this microservnce you can check hte size (in  bytes) of any file in your computer, simply by going to /api/, chooseing whitch file you want to check and then click Check Size. This will not save or log your file anywhre simple return an object with the value in bytes</p>
+				<br>
+				<h4>Upload:</h4>
+				<p class="bg-info">Upload file (it wont save anywhere)</p>
+				<h4>Output:</h4>
+				<p class="bg-danger">{ size: 18946196 }</p>
+			</div>
+		</div>
 	</body>
 </html>

@@ -1,0 +1,32 @@
+
+body {
+	padding-top: 100px;
+}
+
+#file-form {
+	border: 5px solid lightgrey;
+	padding: 10px;
+	text-align: center;
+	width: 250px;
+}
+
+#file-select {
+	width: 240px;
+	outline: 0px solid white;
+}
+
+#file-submit {
+	outline: 0px solid white;
+}
+
+#main {
+	height: 500px;
+	text-align: center;
+	width: 540px;
+}
+
+#text {
+	padding-left: 20px; padding-right: 20px; 
+	padding-top: 5px; padding-bottom: 5px;
+	text-align: left;
+}
