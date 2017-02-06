@@ -1,4 +1,4 @@
-
+<!DOCTYPE html>
 <html>
 	{{> header}}
 	<body>
@@ -7,12 +7,12 @@
 			<hr>
 			<div id="text">
 				<h4>Description:</h4> 
-				<p>With this microservnce you can check hte size (in  bytes) of any file in your computer, simply by going to /api/, chooseing whitch file you want to check and then click Check Size. This will not save or log your file anywhre simple return an object with the value in bytes</p>
+				<p>With this microservice you can check the size (in bytes) of any file on your computer. Go to <b>/api</b>, choose which file you are curious about and click Check Size. This will not save or log your file anywhere; simply return an object with the value in bytes.</p>
 				<br>
-				<h4>Upload:</h4>
-				<p class="bg-info">Upload file (it wont save anywhere)</p>
+				<h4>Usage:</h4>
+				<p class="bg-info">Browse for a file like "randomText.txt" or "funnyCatPicture.png" on your computer and click 'Check Size'</p>
 				<h4>Output:</h4>
-				<p class="bg-danger">{ size: 18946196 }</p>
+				<p class="bg-danger">{ size: 7986 }</p>
 			</div>
 		</div>
 	</body>
